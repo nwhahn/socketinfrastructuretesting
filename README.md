@@ -6,7 +6,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+
+#### `yarn start`
+
+Starts both the client and server concurrently. This will ensure the frontend has a backend to retrieve data from.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+You can open multiple clients and communicate messages with each other.
+
+### `yarn server`
+
+Starts the go server on http://localhost:8000
+
+
+### `yarn client`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
